@@ -1,0 +1,28 @@
+tutor download node js
+
+cari verrsi lts 
+download 
+buka cmd 
+ketik node --version: akan muncul version 
+ketik npm install -g --unsafe-perm node-red: tunggu beberapa saat 
+ketik node-red: kalua sudah ada tulisan server now running 127.0.0.1:1880 berarti berhasil 
+buka browser
+ketik http://localhost:1880
+
+cari dipojok kiri mqtt in
+- masukkan broker, port 
+- masukkan topic 
+
+cari json 
+- cari dan pilih always convert to JavaScript object
+
+cari function 
+msg.payload = msg.payload.tanggal + "," + 
+              msg.payload.jam + "," + 
+              msg.payload.uid + "\n";
+return msg;
+
+
+cari writefile 
+masukkan nama file yang diinginkan 
+
